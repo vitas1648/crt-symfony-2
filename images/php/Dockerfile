@@ -1,5 +1,6 @@
 FROM php:8-fpm-alpine
-#MAINTAINER PHPtoday.ru <info@phptoday.ru>
+
+RUN docker-php-ext-install mysqli
 
 #RUN apt-get update && apt-get install -y \
 #        curl \
