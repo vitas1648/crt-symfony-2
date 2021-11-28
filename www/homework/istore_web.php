@@ -6,7 +6,7 @@
 <body>
 <?php
     include 'header.php';
-    include 'exception_form.php';
+    include 'istore.php';
 ?>
 </body>
 </html>

@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 15px auto;
+}
+
+
+th, td {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 0;
+}
+
+.header_nav {
+    display: flex;
+}
+
+.header_nav > li {
+    padding: 2px 5px;
+}
